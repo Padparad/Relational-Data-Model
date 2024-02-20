@@ -1,7 +1,17 @@
 # Relational-Data-Model
-Implementation of database system and relational algrbra.
+Implementation of a database system and relational algebra.
 
+Part 1
+This part contains all the fundamental functions of database, such as insert, delete, and lookup. Also, the struct and initialization functions are included in this section. As for data structure, we use HashTable to store all relational tables. For delete and lookup, some attributes can be leave unspecified as "*" (char type) or -1 (int type). In additional, we have some helper functions that print and compare tuples.
+The function demo_part1() is used to run the demonstration of part 1.
 
+Part 2
+This part supports queries across more than one table. One function answers the question "What grade did NAME get in COURSE?" by querying SNAP and CSG tables. And another function answers "Where is NAME at HOUR on DAY?" by querying SNAP, CSG, CDH, and CR tables.
+The function demo_part2() is used to run the demonstration of part 2.
+
+Part 3
+This part implements the relational algebra operations of tuples, including selection, projection, and join. These functions were made specifically for the requirements of this project. 
+The function demo_part3() is used to run the demonstration of part 3.
 
 Appendix: 5 relations used in the project
 
